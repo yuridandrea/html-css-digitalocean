@@ -1,0 +1,67 @@
+body {
+  /* padding-top: 40px;
+  height: 150vh;
+  background-color: pink; */
+}
+
+/* header */
+nav img {
+  width: 20%;
+}
+
+.navbar-header .logo img {
+  float: left;
+  margin-right: 50px;
+}
+/* fine header */
+
+/* main */
+/* jumbo */
+.ms_jumbo {
+  width: 100%;
+  background-image: url("../img/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-size: cover;
+  background-position: center;
+  backface-visibility: hidden;
+  transform: translateZ(0px);
+}
+.jumbo {
+  padding: 100px 0;
+}
+
+.mail {
+  margin-bottom: 10px;
+}
+
+.input-group-addon {
+  background-color: white;
+  border: none;
+}
+/* fine jumbo */
+/* loghi */
+.ms_loghi {
+  background-color: #f3f5f9;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+.row .box_loghi div {
+  height: 8vh;
+  line-height: 8vh;
+  margin: 50px 0;
+
+}
+.ms_loghi img {
+  transform: translate(-50%, -50%);
+}
+/* fine loghi */
+/* li deploy */
+.list_left li {
+  list-style: none;
+  border-left: 1px solid grey;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.list_left li:last-child {
+  padding-bottom: 0;
+}
