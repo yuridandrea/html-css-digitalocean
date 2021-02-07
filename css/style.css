@@ -1,17 +1,47 @@
-body {
-  /* padding-top: 40px;
-  height: 150vh;
-  background-color: pink; */
+@@font-face {
+  font-family: 'Inter', sans-serif !important;
 }
-
+li {
+  list-style: none;
+}
+.bg_gray {
+  background-color: #f3f5f9;
+}
+.bg_blue {
+  background-color: #015aff;
+}
+.bg_d_blue {
+  background-color: #031b4e;
+}
+.clr_white {
+  color: white;
+}
+.clr_white a {
+  color: white;
+}
 /* header */
-nav img {
-  width: 20%;
+#white {
+  background-color: #ffffff;
 }
-
+#a_my_color a {
+  color:  #011d5c;
+}
 .navbar-header .logo img {
   float: left;
+  margin: 3px;
   margin-right: 50px;
+  width: 20%;
+}
+.burger {
+  float: right;
+  margin-right: 50px;
+}
+button .blue {
+  color: #006aff;
+}
+#btn_blue {
+  border-color: #006aff;
+  background-color: #ffffff;
 }
 /* fine header */
 
@@ -28,19 +58,37 @@ nav img {
 .jumbo {
   padding: 100px 0;
 }
+.ms_jumbo {
+  color: white;
+  font-weight: 900;
+}
+.wrp_white {
+  background-color: white;
+  color: black;
+}
+.wrp_white h3 {
+  color: #006aff;
+}
+ .inp {
+  width: 200%;
+  margin: 0 22.4px;
+}
+.ms_jumbo div .btn_group {
+  margin: 10px 20px;
+}
+.google_icn {
+  position: absolute;
+  top: 78%;
+  left: 8%;
+  width: 4%;
+}
 
 .mail {
   margin-bottom: 10px;
 }
-
-.input-group-addon {
-  background-color: white;
-  border: none;
-}
 /* fine jumbo */
 /* loghi */
 .ms_loghi {
-  background-color: #f3f5f9;
   padding: 50px 0;
   margin: 0 auto;
 }
@@ -65,3 +113,30 @@ nav img {
 .list_left li:last-child {
   padding-bottom: 0;
 }
+
+/* secion ms_ds_developers */
+.ms_ds_developers img {
+  width: 70%;
+  padding: 20px;
+}
+
+/* section cust service */
+
+.line {
+  border-bottom: 1px solid white;
+}
+
+.rocker_text {
+  background-color: white;
+  padding: 50px;
+}
+.rocker img {
+  width: 30%;
+}
+
+/* footer */
+ .social li  {
+  display: inline-block;
+}
+
+ /* media */
