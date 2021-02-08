@@ -1,5 +1,8 @@
-@@font-face {
-  font-family: 'Inter', sans-serif !important;
+body{
+  font-family: 'Roboto', sans-serif;
+}
+ul {
+  padding: 0;
 }
 li {
   list-style: none;
@@ -19,6 +22,12 @@ li {
 .clr_white a {
   color: white;
 }
+h2 {
+  font-size: 3em;
+}
+.padding {
+  padding: 30px 0;
+}
 /* header */
 #white {
   background-color: #ffffff;
@@ -30,11 +39,14 @@ li {
   float: left;
   margin: 3px;
   margin-right: 50px;
-  width: 20%;
+  max-width: 20%;
 }
 .burger {
   float: right;
+  margin-top: 10px;
   margin-right: 50px;
+  font-size: 2em;
+  color: #006aff;
 }
 button .blue {
   color: #006aff;
@@ -42,6 +54,16 @@ button .blue {
 #btn_blue {
   border-color: #006aff;
   background-color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+ .navbar-header .logo img {
+   min-width: 20%;
+ }
+}
+@media screen and (max-width: 990px) {
+  .navbar-header .logo img {
+    min-width: 30%;
+  }  
 }
 /* fine header */
 
@@ -60,46 +82,74 @@ button .blue {
 }
 .ms_jumbo {
   color: white;
-  font-weight: 900;
+}
+.jumbo h1 {
+  font-size: 4em;
+}
+.sub p {
+  font-size: 1.5em;
 }
 .wrp_white {
   background-color: white;
   color: black;
+  border-radius: 10px;
+}
+.wrp_white h2, .wrp_white h3 {
+  font-size: 3em;
+}
+.wrp_white h2 {
+  padding-top: 30px;
 }
 .wrp_white h3 {
+  padding-top: 0px;
   color: #006aff;
-}
- .inp {
-  width: 200%;
-  margin: 0 22.4px;
 }
 .ms_jumbo div .btn_group {
   margin: 10px 20px;
 }
 .google_icn {
   position: absolute;
-  top: 78%;
+  top: 74%;
   left: 8%;
   width: 4%;
 }
-
+.inp {
+  width: 92%;
+  margin-left: 4%;
+  margin-top: 10px;
+}
 .mail {
+  width: 100%;
   margin-bottom: 10px;
+}
+.con {
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 /* fine jumbo */
 /* loghi */
-.ms_loghi {
-  padding: 50px 0;
-  margin: 0 auto;
-}
 .row .box_loghi div {
   height: 8vh;
-  line-height: 8vh;
-  margin: 50px 0;
-
+  padding-top: 3%;
+  padding-left: 7%;
 }
 .ms_loghi img {
+  max-width: 150px;
   transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 990px) {
+  .ms_loghi img {
+    max-width: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ms_loghi img {
+    max-width: 150px;
+  }
+  .box_loghi {
+    margin-top: 30px;
+    margin-left: 25%;
+  }
 }
 /* fine loghi */
 /* li deploy */
@@ -113,30 +163,81 @@ button .blue {
 .list_left li:last-child {
   padding-bottom: 0;
 }
+.ms_deploy .container {
+  padding: 30px 0;
+}
+.ms_list {
+  padding: 30px 0;
+}
+.circle {
+  color: #0080ff;
+  padding-bottom: 30px;
+}
 
 /* secion ms_ds_developers */
 .ms_ds_developers img {
   width: 70%;
   padding: 20px;
 }
-
+.ms_ds_developers h2 {
+  font-size: 2.5em;
+  padding-top: 30px;
+}
+.freccia {
+  font-size: 3em;
+}
 /* section cust service */
-
 .line {
   border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  margin-top: 5px;
 }
-
+.lines {
+  margin-bottom: 20px;
+}
+.speed {
+  margin-left: 48%;
+}
+.speed a {
+  color: #36bdff;
+}
+/* ms_deve_teams */
+.ms_deve_teams .freccia {
+  padding-top: 80px;
+}
 .rocker_text {
   background-color: white;
-  padding: 50px;
+  margin: 20px;
 }
 .rocker img {
+  padding: 20px 0;
   width: 30%;
 }
-
+/* get started */
+.ms_get_started input {
+ border: none;
+ color: #0080ff;
+ font-size: 1.2em;
+}
 /* footer */
  .social li  {
   display: inline-block;
 }
-
- /* media */
+.social a {
+  color: #8c8e8f;
+  font-size: 1.5em;
+  padding: 0 5px;
+  text-align: left;
+}
+.info {
+  padding-top: 20px;
+}
+.logo_footer {
+  color: #8c8e8f;
+}
+.logo_footer img {
+  padding-bottom: 10px;
+}
+.sec li {
+  margin: 2px 0;
+}
